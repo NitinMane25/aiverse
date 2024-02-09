@@ -1,0 +1,130 @@
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .homepage {
+      height: auto;
+      padding: 10px;
+    }
+  
+    nav {
+      padding: 10px;
+      margin-right: 10px;
+    }
+  
+    nav ul li {
+      margin-left: 20px;
+    }
+  
+    .content h1 {
+      font-size: 36px;
+    }
+  
+    .content a {
+      font-size: 18px;
+      padding: 10px 30px;
+    }
+  
+    .section1 p {
+      width: auto;
+      font-size: large;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .section2 img,
+    .pic1 img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .pic1 p {
+      width: auto;
+      font-size: large;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .button {
+      width: auto;
+      padding: 10px 20px;
+      margin: 10px;
+    }
+  
+    .footer-logo img {
+      width: 150px;
+    }
+  
+    .footer-links ul li,
+    .footer-social ul li {
+      margin-right: 10px;
+    }
+  
+    .footer-social ul li:last-child {
+      margin-right: 20px;
+    }
+  
+    .footer-bottom {
+      margin-top: 10px;
+    }
+    .atul img {
+        /* Adjust the properties of the car.png image for smaller screens */
+        width: 80%; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+        display: block; /* Ensure it takes full width */
+      }
+      .section1 {
+        /* Adjust the properties of section1 for smaller screens */
+        flex-direction: column; /* Stack the elements vertically */
+        align-items: center; /* Center the items horizontally */
+        padding: 20px; /* Add some padding for better spacing */
+      }
+    
+      .section1 p {
+        /* Adjust paragraph styles within section1 for smaller screens */
+        width: auto; /* Allow paragraphs to take full width */
+        text-align: center; /* Center the text */
+        margin-top: 20px; /* Add some space between paragraphs */
+      }
+  }
+
+  /*@media screen and (max-height: 700px) {
+    .homepage {
+        height: 500%;
+        overflow: hidden; 
+    }
+}*/
+@media screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none; /* Initially hide the navigation menu on smaller screens */
+    }
+
+    /* Adjust styles for navigation menu on smaller screens */
+    .nav-menu.active {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      perspective: 500px; /* Adjust perspective for smaller screens */
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container {
+      perspective: 300px; /* Further adjust perspective for even smaller screens */
+      width:70%;
+    }
+  }

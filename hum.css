@@ -1,0 +1,45 @@
+/* Add this CSS for hamburger menu styling */
+.hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+}
+
+.hamburger-menu .line {
+    width: 30px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 6px 0;
+}
+
+/* Adjust the position of the navigation links for smaller screens */
+@media screen and (max-width: 768px) {
+    nav ul.nav-links {
+        display: none; /* Hide the navigation links by default on smaller screens */
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: #333; /* Example background color */
+        padding: 10px 0;
+    }
+
+    nav ul.nav-links li {
+        margin: 10px 0;
+    }
+
+    /* Show the hamburger menu icon */
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: #FFF;
+        margin: 5px;
+    }
+}

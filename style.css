@@ -12,7 +12,7 @@
     background-color: #dfdfdf;
 
   }
-  img{
+   img{
     width: 300px;
     mix-blend-mode: color-burn;
   }
@@ -31,7 +31,7 @@
     padding: .5rem 3rem;
     border-radius: 15px;
   }
-
+  
   nav{
     width: 100%;
     position: absolute;
@@ -44,7 +44,10 @@
     margin-left:0px;
     margin-top: 0;
     margin-right: 100px;
+    
+
   }
+  
   nav.logo{
     width: 80px;
     
@@ -104,4 +107,244 @@
     }
   }
 
+
+.pic1{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  background-color: #000;
+  position: relative;
+}
+.para h1{
+  text-align: center;
+  background-color: #90f08d;
+  color:#4d4d3f;te
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom:20px;
+}
+.hey h1{
+  text-align: center;
+  background-color: #90f08d;
+  color:#4d4d3f;te
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom:20px;
+}
+.carieer{
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background-color: #90f08d;
+}
+.carieer h1{
+  margin-left:30px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#272525;
+  text-decoration: underline;
+}
+.carieer p{
+  margin-right:20px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #4d4d3f;
+}
+.atul{
+  margin: 10px;
+  padding:10%;
+  background-position: center;
+  color:#fff;
   
+}
+.atul img{
+  width:auto;
+  height: 100vh;
+  object-fit:cover;
+  background-position: center;
+ 
+  
+}
+.lastp{
+ text-align: center;
+ margin-bottom: 3%;
+ background-color: #90f08d;
+}
+.lastp h1{
+  font-size: 8vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #202221;
+}
+.lastp a{
+  font-size: 5vh;
+ 
+}
+.section1{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  background-color: #000;
+  position: relative;
+  
+}
+.section1 p{
+  width: 1000px;
+  font-size: xx-large;
+  margin-right: 20px;
+  height: auto;
+  margin-left: 30px;
+font-style: normal;
+  color: #97bd0e;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+.section2{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+.section2 img{
+  width: 700px;
+  height: 1000%;
+  color: #b6ad2d;
+  mix-blend-mode: normal;
+ 
+  margin-top: 80px;
+  margin-right: 50px;
+  margin-bottom: 5%;
+}
+
+.pic1 img{
+  width: 700px;
+  height: 1000%;
+  color: #b6ad2d;
+  mix-blend-mode: normal;
+ 
+  margin-top: 80px;
+  margin-right: 50px;
+  margin-bottom: 5%;
+}
+.pic1 p{
+  width: 1000px;
+  font-size: xx-large;
+  margin-right: 20px;
+  height: auto;
+  margin-left: 30px;
+font-style: italic;
+  color: #0ebd25;
+}
+
+
+/*************image flip*******************/
+
+.container {
+  perspective: 1000px; 
+  width:100%;
+ 
+}
+
+.image-container {
+  position: relative;
+  width: 700px; 
+  height: 1000%; 
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 700px; 
+  height: 1000%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  backface-visibility: hidden; 
+  transform: rotateY(-180deg); 
+  transition: transform 0.3s ease; 
+}
+
+.image-container:hover .overlay {
+  transform: rotateY(0deg); 
+}
+
+
+/******************buttons******************/
+.button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #8fe60e;
+  color: rgb(228, 227, 213);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.button:hover {
+  background-color: #1edf0c;
+
+}
+
+  
+  
+/* Footer */
+footer {
+  background-color:#484d49;
+  color: #29a558;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 250px;
+  mix-blend-mode: color-burn;
+  
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  color: #FFF;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #dfdfdf;
+}
+
+.footer-social ul li:last-child {
+  margin-right: 100px;
+}
+
+.footer-social ul li a img {
+  width: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
