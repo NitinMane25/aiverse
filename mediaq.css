@@ -115,16 +115,89 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .container {
-      perspective: 500px; /* Adjust perspective for smaller screens */
+      perspective: 500px; 
       width: 80%;
     }
   }
   
   @media screen and (max-width: 576px) {
     .container {
-      perspective: 300px; /* Further adjust perspective for even smaller screens */
+      perspective: 300px; 
       width:70%;
     }
+  }*/
+
+  @media screen and (max-width: 768px) {
+    .pic1 {
+      /* Your CSS adjustments for screens smaller than 768px */
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
   }
+  
+  @media screen and (max-width: 576px) {
+    .pic1 {
+      /* Your CSS adjustments for screens smaller than 576px */
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  }
+
+  /* Media query for innovation.png */
+@media screen and (max-width: 768px) {
+    .pic1 .container .image-container img[src="innovation.png"] {
+      /* Adjust the width and height as needed */
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for innovation1.png */
+  @media screen and (max-width: 768px) {
+    .pic1 .container .image-container .overlay img[src="innovation1.png"] {
+      /* Adjust the width and height as needed */
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for bus.png */
+  @media screen and (max-width: 768px) {
+    .pic1 .container .image-container img[src="bus.png"] {
+      /* Adjust the width and height as needed */
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for bus1.png */
+  @media screen and (max-width: 768px) {
+    .pic1 .container .image-container .overlay img[src="bus1.png"] {
+      /* Adjust the width and height as needed */
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for office.png */
+  @media screen and (max-width: 768px) {
+    .pic1 .container .image-container img[src="office.png"] {
+      /* Adjust the width and height as needed */
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for office1.png */
+  @media screen and (max-width: 768px) {
+    .pic1 .container .image-container .overlay img[src="office1.png"] {
+      /* Adjust the width and height as needed */
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  
+  

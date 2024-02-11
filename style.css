@@ -220,6 +220,9 @@ font-style: normal;
   margin-right: 50px;
   margin-bottom: 5%;
 }
+.pic1{
+  overflow: hidden;
+}
 
 .pic1 img{
   width: 700px;
